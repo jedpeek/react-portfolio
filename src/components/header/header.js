@@ -12,7 +12,7 @@ export default class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#resume">Resume</a></li>
+            <li><a className="smoothscroll" href="#resume">Education</a></li>
             <li><a className="smoothscroll" href="#project">Projects</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul> {/* end #nav */}
@@ -26,10 +26,10 @@ export default class Header extends Component {
             </h3>
             <hr />
             <ul className="social">
-              <li><a href="https://www.facebook.com/jed.peek"><i className="fa fa-facebook" /></a></li>
-              <li><a href="https://twitter.com/JedPeek"><i className="fa fa-twitter" /></a></li>
-              <li><a href="https://www.linkedin.com/in/jed-peek/"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="https://www.instagram.com/jedmrkts/"><i className="fa fa-instagram" /></a></li>
+              <li><a href="https://www.facebook.com/jed.peek" target='_blank'><i className="fa fa-facebook" /></a></li>
+              <li><a href="https://twitter.com/JedPeek" target='_blank'><i className="fa fa-twitter" /></a></li>
+              <li><a href="https://www.linkedin.com/in/jed-peek/" target='_blank'><i className="fa fa-linkedin" /></a></li>
+              <li><a href="https://www.instagram.com/jedmrkts/" target='_blank'><i className="fa fa-instagram" /></a></li>
             </ul>
           </div>
         </div>
