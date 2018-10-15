@@ -15,13 +15,11 @@ export default class Project extends Component {
                 <div id="modal-01" className="popup-modal ">
                   <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
                   <div className="description-box">
-                    <h4>Coffee Cup</h4>
+                    <h4>
+                      Sbux Secret Menu
+                      <a href="https://github.com/jedpeek/sbux-secret-menu-rails"><span className='fa fa-github fa-pad'/></a>
+                    </h4>
                     <p>Ruby on Rails application that allows users to login and share starbucks secret recipes.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="https://github.com/jedpeek/sbux-secret-menu-rails">GITHUB</a>
-                    <a className="popup-modal-dismiss" onClick={this.handleClick}>Close</a>
                   </div>
                 </div>
               </code>
@@ -32,13 +30,11 @@ export default class Project extends Component {
                 <div id="modal-02" className="popup-modal">
                   <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
                   <div className="description-box">
-                    <h4>Console</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
+                    <h4>
+                      React-Graph Store
+                      <a href="https://github.com/jedpeek/sbux-secret-menu-rails"><span className='fa fa-github fa-pad'/></a>
+                    </h4>
+                    <p>React based online store using GraphQL backend and stripe for payment authorization</p>
                   </div>
                 </div>
               </code>
@@ -49,13 +45,12 @@ export default class Project extends Component {
                 <div id="modal-03" className="popup-modal">
                   <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
                   <div className="description-box">
-                    <h4>Judah</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
+                    <h4>
+                      Electron SongWriter
+                      <a href="https://github.com/jedpeek/sbux-secret-menu-rails"><span className='fa fa-github fa-pad'/></a>
+                    </h4>
+                    <p>Desktop app built using Electron to allow songwriters to write lyrics and record short melodies</p>
+
                   </div>
                 </div>
               </code>
