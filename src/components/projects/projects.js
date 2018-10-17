@@ -19,7 +19,7 @@ export default class Project extends Component {
                       Sbux Secret Menu
                       <a href="https://github.com/jedpeek/sbux-secret-menu-rails"><span className='fa fa-github fa-pad'/></a>
                     </h4>
-                    <p>Ruby on Rails application that allows users to login and share starbucks secret recipes.</p>
+                    <p>Ruby on Rails application that allows users to login and share Starbucks secret recipes</p>
                   </div>
                 </div>
               </code>
@@ -34,7 +34,7 @@ export default class Project extends Component {
                       React-Graph Store
                       <a href="https://github.com/jedpeek/sbux-secret-menu-rails"><span className='fa fa-github fa-pad'/></a>
                     </h4>
-                    <p>React based online store using GraphQL backend and stripe for payment authorization</p>
+                    <p>React based online store using MongoDB and GraphQL backend and stripe for payment authorization</p>
                   </div>
                 </div>
               </code>

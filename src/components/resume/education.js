@@ -29,7 +29,7 @@ export default class education extends Component {
                 <p>
                   Flatiron gave me the expertise in both back-end
                   and front-end programming to become a full-stack web developer.
-                  I learned not only the how to's of programming but also the why's
+                  I learned not only the how-to's of programming but also the why's
                   which gave me a more foundational understanding of how the web works.
                 </p>
               </div>

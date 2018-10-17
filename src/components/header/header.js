@@ -21,8 +21,8 @@ export default class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">{resumeData.name}</h1>
             <h3 className="header-description">
-                I am a {resumeData.location} based <span>{resumeData.role}</span>.<br/>
-                With a passion for creative and intutive design.
+                I am a {resumeData.location} based <span>{resumeData.role}</span><br/>
+                With a passion for creative and intutive design
             </h3>
             <hr />
             <ul className="social">
