@@ -20,9 +20,9 @@ export default class Contact extends Component {
           <div className="eight columns">
             {/* form */}
             <form method="post" id="contactForm" name="contactForm">
+            <input type="hidden" name="form-name" value="contactForm" />
               <fieldset>
                 <div>
-                  <input type="hidden" name="form-name" value="contactForm" />
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
                   <input type="text" defaultValue size={35} id="contactName" name="contactName" placeholder="Name" />
                 </div>
