@@ -19,10 +19,6 @@ export default class Contact extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="text" name='name' placeholder='name'/>
-              <button type='submit'>Submit</button>
-            </form>
             <form id="contactForm" name="contactForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactForm" />
               <fieldset>
@@ -43,7 +39,7 @@ export default class Contact extends Component {
                   <textarea cols={50} rows={5} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
-                  <button type='submit' className="submit">Submit</button>
+                  <button type='submit'>Submit</button>
                   <span id="image-loader">
                     <img alt src="images/loader.gif" />
                   </span>
