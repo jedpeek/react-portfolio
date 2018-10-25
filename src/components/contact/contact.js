@@ -19,7 +19,7 @@ export default class Contact extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action='/' id="contactForm" name="contactForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form action id="contactForm" name="contactForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactForm" />
               <fieldset>
                 <div>
