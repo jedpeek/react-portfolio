@@ -308,7 +308,7 @@
      	margin-bottom: 6px;
       width: 100%;
    }
-   #contact button.customSubmit { margin: 30px 0 24px 0; }
+   #contact button.customSubmit { margin: 30px 0 24px 0; width: 50%; }
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;
