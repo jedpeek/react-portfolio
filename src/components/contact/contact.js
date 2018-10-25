@@ -39,7 +39,7 @@ export default class Contact extends Component {
                   <textarea cols={50} rows={5} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
-                  <button type='submit' className="submit">Submit</button>
+                  <button type='submit' className="customSubmit">Submit</button>
                   <span id="image-loader">
                     <img alt src="images/loader.gif" />
                   </span>
