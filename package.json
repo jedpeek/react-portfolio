@@ -6,6 +6,7 @@
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
+    "react-piano": "^3.1.0",
     "react-redux-loading-bar": "^4.0.8",
     "react-scripts": "1.1.5",
     "react-twitter-embed": "^1.2.0"

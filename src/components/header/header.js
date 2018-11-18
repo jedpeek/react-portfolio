@@ -1,7 +1,23 @@
 import React, { Component, Fragment } from 'react';
+// import InteractiveDemo from './InteractiveDemo';
+// const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+// const soundfontHostname = 'https://d1pzp51pvbm36p.cloudfront.net';
+// <div className="container">
+//   <div className="row mt-5">
+//     <div className="col-md-8 offset-md-2">
+//       <InteractiveDemo audioContext={audioContext} soundfontHostname={soundfontHostname} />
+//     </div>
+//   </div>
+// </div>
 export default class Header extends Component {
+  state ={
+    showPiano: false
+  }
+  handleClick = ()=>{
+    this.state.showPiano ? this.setState({showPiano: false }) : this.setState({showPiano: true })
+  }
   render() {
-      let resumeData = this.props.resumeData
+      let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
         {
@@ -13,7 +29,7 @@ export default class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
             <li><a className="smoothscroll" href="#resume">Education</a></li>
-            <li><a className="smoothscroll" href="#project">Projects</a></li>
+            <li><a className="smoothscroll" href="#projects">Projects</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul> {/* end #nav */}
         </nav> {/* end #nav-wrap */}
@@ -34,7 +50,7 @@ export default class Header extends Component {
           </div>
         </div>
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
+          <a className="smoothscroll" href="#about" ><i className="icon-down-circle" onClick={this.handleClick}/></a>
         </p>
       </header> }
       </React.Fragment>
