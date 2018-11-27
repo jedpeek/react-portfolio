@@ -42,10 +42,11 @@ export default class Header extends Component {
             </h3>
             <hr />
             <ul className="social">
-              <li><a href="https://www.facebook.com/jed.peek" target='_blank'><i className="fa fa-facebook" /></a></li>
+              {/*<li><a href="https://www.facebook.com/jed.peek" target='_blank'><i className="fa fa-facebook" /></a></li>*/}
               <li><a href="https://twitter.com/JedPeek" target='_blank'><i className="fa fa-twitter" /></a></li>
               <li><a href="https://www.linkedin.com/in/jed-peek/" target='_blank'><i className="fa fa-linkedin" /></a></li>
-              <li><a href="https://www.instagram.com/jedmrkts/" target='_blank'><i className="fa fa-instagram" /></a></li>
+              <li><a href="https://www.github.com/jedpeek" target='_blank'><i className="fa fa-github" /></a></li>
+            {/*  // <li><a href="https://www.instagram.com/jedmrkts/" target='_blank'><i className="fa fa-instagram" /></a></li>*/}
             </ul>
           </div>
         </div>
