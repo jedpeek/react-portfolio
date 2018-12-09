@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
+    "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.5.2",
-    "react-piano": "^3.1.0",
-    "react-redux-loading-bar": "^4.0.8",
+    "react-dom": "^16.6.3",
+    "react-piano": "^3.1.2",
+    "react-redux-loading-bar": "^4.1.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
-    "react-twitter-embed": "^1.2.0"
+    "react-twitter-embed": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
