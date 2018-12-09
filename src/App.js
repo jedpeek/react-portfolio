@@ -13,7 +13,7 @@ import NavBar from './components/navbar'
 
 // DATA
 import resumeData from './Data/resumeData'
-import aboutData from './Data/aboutData'
+import AboutData from './Data/aboutData'
 
 
 class App extends Component {
@@ -21,7 +21,7 @@ class App extends Component {
     return (
     <div className="App">
         <Header resumeData={resumeData} />
-        <About aboutData={aboutData}/>
+        <AboutData/>
         <Education />
         <Project />
         <Contact />
