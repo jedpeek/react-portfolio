@@ -51,16 +51,11 @@ class AboutData extends Component {
     } else {aboutView = <About aboutData={this.state}/>}
     return (
       <div>
-        <button type="submit" name="view" onClick={this.handleView}>View</button>
+        <button type="submit" name="view" onClick={this.handleView}>About View</button>
         {aboutView}
       </div>
     );
   }
 }
-// const aboutData = {
-//   "name": AboutData.state.name ,
-//   "description": AboutData.state.descrption,
-//   "primary_number": AboutData.state.primary_number,
-//   "primary_email": AboutData.state.primary_email
-//   }
+
 export default AboutData;
