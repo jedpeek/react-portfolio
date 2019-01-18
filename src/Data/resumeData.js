@@ -6,9 +6,9 @@ class HeaderData extends Component {
       this.state = {
       loadContent: false,
       imagebaseurl: "http://localhost:3000/",
-      name:"YOUR NAME",
+      name:"Jed Peek",
       location: "San Diego",
-      role: "REACT DEVELOPER"
+      role: "WEB DEVELOPER"
     }
   }
 
@@ -30,30 +30,9 @@ class HeaderData extends Component {
   }
 
   render() {
-    let headerView;
-    if(this.state.loadContent){
-      headerView =
-      <div className="row">
-        <div class="col-xs-12">
-          <form>
-            <label for="name">Name</label>
-            <input type='text' name="name" onChange={this.handleChange} value={this.state.name}/>
-
-            <label for="location" style={{display: 'inline', margin: '2px'}}>Location</label>
-            <input type='text' name="location" onChange={this.handleChange} value={this.state.location}/>
-
-            <label for="role" style={{display: 'inline', margin: '2px'}}>Role</label>
-            <textarea cols={50} rows={5} onChange={this.handleChange} name="description" value={this.state.role}/>
-            <input type="submit" handleSubmit={this.handleSubmit}/>
-          </form>
-        </div>
-      </div>
-    } else headerView = <Header headerData={this.state}/>
     return (
-      <div>
-        <button type="submit" name="view" onClick={this.handleView} style={{marginTop: '60px'}}>Header View</button>
-        {headerView}
-      </div>
+        <Header headerData={this.state}/>
+
     );
   }
 }

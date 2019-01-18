@@ -10,9 +10,8 @@ export default class Contact extends Component {
           </div>
           <div className="ten columns">
             <p className="lead">
-            Feel free to reach out to me with ideas for blog posts, podcasts, or projects.
+            Feel free to reach out to me if your interested in having me work on your project.
             If you have any material you think I might like to checkout<b> send me a link. </b>
-            Any feedback on my portfolio projects is always welcome. <b>Thanks</b>
             </p>
           </div>
         </div>

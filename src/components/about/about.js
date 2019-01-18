@@ -20,7 +20,7 @@ export default class About extends Component {
                       <h2>Contact Details</h2>
                       <p className="address">
                         <span>{about.name}</span><br />
-                        <span>{about.phone_number}</span><br />
+                        
                         <span>{about.primary_email}</span>
                       </p>
                     </div>
